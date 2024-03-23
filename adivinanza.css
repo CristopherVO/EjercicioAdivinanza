@@ -1,0 +1,49 @@
+
+body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5148b380e4b0106646129f8e/1647892163892-JV565QRDEOERCS18S6TH/genio-en-una-lampara+1460.jpg");
+    font-family: 'Arial', sans-serif; /* Tipo de fuente */
+    color: #fff; /* Color de texto predeterminado */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centrar el contenido */
+  }
+  
+  h1 {
+    color: #ffa500; /* Color del título principal */
+  }
+  
+  .btn {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px; /* Bordes redondeados para los botones */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Color de fondo del botón primario */
+    border-color: #007bff; /* Color del borde del botón primario */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo del botón primario al pasar el ratón */
+    border-color: #0056b3; /* Color del borde del botón primario al pasar el ratón */
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Color de fondo del botón de éxito */
+    border-color: #28a745; /* Color del borde del botón de éxito */
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Color de fondo del botón de éxito al pasar el ratón */
+    border-color: #218838; /* Color del borde del botón de éxito al pasar el ratón */
+  }
+  
+  .genio-img {
+    width: 200px; /* Tamaño de la imagen */
+    height: auto;
+    margin-top: 20px; /* Espacio entre la imagen y los botones */
+  }

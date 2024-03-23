@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Avidinar numero</title>
+    <link rel="stylesheet" href="./adivinanza.css";/> 
+
+</head>
+
+<body>
+    <main class="container"> 
+        <div id="principal">
+
+        </div>
+
+        <div>
+
+            <h1> Hola, este programa adivinara tu numero,
+                piensa en cualquiera del 1 al 100
+            </h1>
+            <h2 id="Empezar"> Da click para comenzar </h2>
+            <h3 id="numero"> </h3>
+            <button id="botonComenzar" onclick="comenzarJuego()"> Comenzar</button>
+        </div>
+
+        <button id="numeroMenor" onclick="numeroMenorFun()" style="visibility:hidden"> 
+            No, es menor
+        </button>
+
+        <button id="numeroCorrecto" onclick="numeroCorrectoFun() " style="visibility:hidden"> 
+            Acertaste
+        </button>
+
+        <button id="numeroMayor" onclick="numeroMayorFun()" style="visibility:hidden"> 
+            No, es Mayor
+        </button>
+
+      
+        
+        
+
+    
+    
+    </main>
+
+    <script src="./genio.js"></script>
+    
+</body>
+</html>
